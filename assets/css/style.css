@@ -1,3 +1,6 @@
+/* https://mdsabir07.github.io/b11-assignment1/ */
+
+/* Defaul CSS */
 * {
     margin: 0;
     padding: 0;
@@ -10,6 +13,8 @@ body {
     font-size: 16px;
     font-weight: 400;
     background: #F5F5F5;
+    color: #0E0E0E;
+    line-height: 24px;
 }
 
 a {
@@ -76,10 +81,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 .section-title {
     font-size: 40px;
+    margin-bottom: 32px;
 }
 .br-8 {
     border-radius: 8px;
 }
+.section-padding {
+    padding: 80px 0;
+}
+/* End default CSS */
 
 /* Header */
 .navigation {
@@ -114,4 +124,52 @@ h1, h2, h3, h4, h5, h6 {
 
 .hero-content a.btn {
     width: max-content;
+}
+
+/* Pillar CSS */
+.pillar-boxes {
+    gap: 24px;
+}
+
+.single-pillar {
+    padding: 24px;
+    border: 1px solid #E8E8E8;
+}
+
+.pillar-icon {
+    width: 64px;
+    margin-bottom: 14px;
+}
+
+.single-pillar h4 {
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+/* Footer CSS */
+footer.footer {
+    padding: 50px;
+}
+
+.footer-content {
+    max-width: 1122px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-content h3 {
+    border-bottom: 1px solid #f6f6f6;
+    padding-bottom: 20px;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.social {
+    list-style: none;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social img {
+    width: 24px;
 }
