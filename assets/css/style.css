@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fira Sans", serif;
+    font-style: normal;
+}
+
+body {
+    font-size: 16px;
+    font-weight: 400;
+    background: #F5F5F5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+.clr-primary {
+    color: #006A50;
+}
+.bg-primary {
+    background: #006A50;
+}
+.clr-black {
+    color: #0E0E0E;
+}
+
+.clr-white {
+    color: #fff;
+}
+.bg-white {
+    background: #fff;
+}
+.bg-green {
+    background: #C6E4D6;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
