@@ -29,6 +29,7 @@ img {
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
+    line-height: normal;
 }
 
 .clr-primary {
@@ -112,6 +113,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Hero CSS */
 .hero-wrap {
     padding: 80px;
+    gap: 30px;
 }
 
 .hero-content {
@@ -219,7 +221,7 @@ footer.footer {
 }
 /* blockquote CSS */
 .blockquote {
-    padding: 20px 24px;
+    padding: 20px 24px 40px;
     border: 1px solid #E8E8E8;
 }
 
@@ -371,4 +373,74 @@ blockquote {
 
 .newsletter-form button:hover {
     background: black;
+}
+
+@media (max-width: 767px) {
+    .container,
+    .donate,
+    .donate-amounts,
+    .donate-content input,
+    .newsletter-content {
+        width: 100%;
+    }
+    .container {
+        padding: 15px;
+        padding-right: 15px;
+    }
+    .hero-wrap,
+    .pillar-boxes,
+    .vision-boxes,
+    .question-list li,
+    .single-post {
+        flex-direction: column;
+    }
+
+    
+    .donate-amounts {
+        flex-wrap: wrap;
+    }
+    .navigation {
+        padding: 10px 0;
+    }
+    .navigation h3,
+    .hero-content h1,
+    .section-title,
+    .donate-amounts h3 {
+        font-size: 30px;
+    }
+    .post-heading {
+        font-size: 24px;
+    }
+    .btn {
+        font-size: 16px;
+    }
+    .btn,
+    .donate-content input {
+        padding: 10px 20px;
+    }
+    .donate-amounts h3 {
+        width: auto;
+        padding: 10px 12px;
+    }
+    .section-title {
+        margin-bottom: 24px;
+    }
+    .single-vision,
+    .opinion-content,
+    .single-post,
+    .hero-wrap,
+    .newsletter,
+    footer.footer {
+        padding: 24px;
+    }
+    .newsletter-form button {
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+    .newsletter-form input[type="email"] {
+        padding: 11px 15px;
+    }
+    .section-padding {
+        padding: 40px 0;
+    }
 }
