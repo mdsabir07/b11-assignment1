@@ -87,6 +87,12 @@ h1, h2, h3, h4, h5, h6 {
 .br-8 {
     border-radius: 8px;
 }
+.br-16 {
+    border-radius: 16px;
+}
+.br-24 {
+    border-radius: 24px;
+}
 .section-padding {
     padding: 80px 0;
 }
@@ -226,4 +232,108 @@ blockquote {
 .blockquote h5 {
     font-size: 20px;
     font-weight: 600;
+}
+
+/* Opinion CSS */
+.opinion-content {
+    padding: 32px;
+}
+
+.opinion-inner {
+    border: 1px solid #F1F1F1;
+}
+
+.opinion-heading, .question-list li p {
+    padding: 24px;
+}
+
+.question-list li {
+    border-top: 1px solid #D7D7D7;
+}
+
+.question-list li p {
+    flex-grow: 1;
+    border-right: 1px solid #D7D7D7;
+    font-weight: 600;
+}
+
+.question-list li select {
+    width: 152px;
+    margin: 0 24px;
+    padding: 10px 14px;
+    border: 1px solid #5A635F;
+    font-weight: 500;
+}
+
+.opinion-heading h5 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* News CSS */
+.single-post {
+    margin-top: 24px;
+    padding: 48px;
+    gap: 32px;
+}
+
+.post-heading {
+    font-size: 32px;
+}
+.post-meta {
+    margin-block: 12px;
+}
+
+.time-meta {
+    gap: 12px;
+    margin-top: 6px;
+}
+
+.excerpt {
+    margin-bottom: 32px;
+}
+
+.post-item-2 {
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+/* Donate css */
+.donate-content {
+    gap: 32px;
+    flex-direction: column;
+    margin-top: 32px;
+    align-items: center;
+}
+
+.donate {
+    width: 1107px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.donate-amounts {
+    width: 1071px;
+    gap: 24px;
+}
+
+.donate-amounts h3 {
+    width: 100%;
+    padding: 40px 20px;
+    border: 1px solid #E4E4E4;
+    font-size: 40px;
+}
+
+.donate-content input {
+    width: 1032px;
+    padding: 20px 40px;
+    border: none;
+    border-bottom: 1px solid #E4E4E4;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.donate-amounts h3:hover {
+    background: #C6E4D6;
 }
