@@ -224,7 +224,7 @@ footer.footer {
 }
 
 blockquote {
-    background: url('../assets/imgs/quote-bg.png');
+    background: url('/assets/imgs/quote-bg.png');
     background-repeat: no-repeat;
     padding: 25px 0 15px;
 }
