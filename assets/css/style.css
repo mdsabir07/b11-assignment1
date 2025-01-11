@@ -1,5 +1,3 @@
-/* https://mdsabir07.github.io/b11-assignment1/ */
-
 /* Defaul CSS */
 * {
     margin: 0;
@@ -372,9 +370,10 @@ blockquote {
 }
 
 .newsletter-form button:hover {
-    background: black;
+    background: #0E0E0E;
 }
 
+/* Mobile responsive CSS */
 @media (max-width: 767px) {
     .container,
     .donate,
