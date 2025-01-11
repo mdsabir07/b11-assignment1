@@ -211,3 +211,19 @@ footer.footer {
 .single-vision.bg-yellow .btn {
     background: #FFC239;
 }
+/* blockquote CSS */
+.blockquote {
+    padding: 40px 24px;
+    border: 1px solid #E8E8E8;
+}
+
+blockquote {
+    background: url('../assets/imgs/quote-bg.png');
+    background-repeat: no-repeat;
+    padding: 25px 0 15px;
+}
+
+.blockquote h5 {
+    font-size: 20px;
+    font-weight: 600;
+}
