@@ -71,9 +71,10 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: max-content;
 }
 .btn:hover {
-    background: #0E0E0E;
+    background: #0E0E0E !important;
     color: #fff;
 }
 .bordered-btn {
@@ -120,10 +121,7 @@ h1, h2, h3, h4, h5, h6 {
 .hero-content h1 {
     font-size: 56px;
     margin: 16px 0 24px;
-}
-
-.hero-content a.btn {
-    width: max-content;
+    line-height: normal;
 }
 
 /* Pillar CSS */
@@ -172,4 +170,44 @@ footer.footer {
 
 .social img {
     width: 24px;
+}
+
+/* Vision */
+.vision-boxes {
+    margin-block: 32px;
+    gap: 24px;
+}
+
+.single-vision {
+    padding: 32px;
+    flex-direction: column;
+}
+
+.single-vision.bg-blue {
+    background: #D5E1F5;
+}
+
+.single-vision.bg-blue .btn {
+    background: #5490F5;
+}
+
+.single-vision .btn {
+    margin-top: auto;
+}
+
+.single-vision h4 {
+    margin-block: 20px;
+    font-size: 20px;
+}
+
+.single-vision p {
+    margin-bottom: 20px;
+}
+
+.single-vision.bg-yellow {
+    background: #F7EBCF;
+}
+
+.single-vision.bg-yellow .btn {
+    background: #FFC239;
 }
